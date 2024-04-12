@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>js1</title>
+    <script type="text/javascript" "src="js2.js">
+	       
+			  
+    </script>
+ </head>
+ <body>
+     <p> This is Giri Creation </p>
+        
+			   <form>
+			  <input type="button"
+			          value="click"
+					  onclick="msg()"/>
+			   </form>
+	     
+ </body>
+</html>

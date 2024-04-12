@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <title>Document</title>
+ </head>
+ <body>
+ <div class="1stclass">
+  This is a simple class implementation
+  </div>
+  <script>
+         var x=document.getElementsByClassName("1stclass);
+		 document.writeln("On calling x, it will return an array like object:<br>"+x);
+	</script>
+ </body>
+</html>

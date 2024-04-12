@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+ <script>
+ document.writeln("<br> code name:"+ navigator.appCodeName);
+ document.writeln("<br> verson name:" +navigator.appVerson);
+
+
+ </script>
+
+
+ </body>
+</html>

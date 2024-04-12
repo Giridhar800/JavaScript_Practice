@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <meta name="Keywords" content
+ </head>
+ <body>
+ <script>
+   class Student{ constructor(){
+   var name;
+   var marks;}
+   getName(){ return this.name;}
+   setName(name){ this.name=name;}
+   getMarks(){ return this.marks;}
+   setMarks(marks){
+	   if(marks<0||marks>100){ alert("Invavlid Marks");}
+	   else{  this.marks=marks;}
+       }}
+ var stu=new Student();
+ stu.setName("giri");
+ stu.setMarks(500);
+ document.writeln(stu.getName()+" "+stu.getMarks());
+ </script>
+ </body>
+</html>

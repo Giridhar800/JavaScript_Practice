@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+ <script>
+ function Vehicle(){
+	 this.vehicleName="vehicleName";
+	}
+   Vehicle.prototype.display=function(){
+	   return "Vehicle is:"+ this.vehicleName;}
+   function Bike(vehicleName){ this.vehicleName=vehicleName;}
+   Bike.prototype=Object.create(Vehicle.prototype);
+   var bike=new Bike("honda");
+   document.writeln(bike.display());
+   </script>
+  
+ </body>
+</html>

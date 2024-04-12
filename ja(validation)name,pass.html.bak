@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ </head>
+ <body>
+ <script>
+	function validation(){
+	   var name=document.myform.name.value;
+	   var pass=document.myform.pass.value;
+
+	   if (name==null || name=="")
+	   {
+		   alert("Name cannot be blank")
+		   return false;
+	   }
+	   else if(pass.length<6){
+		   alert("pass must be atleast 6 characters");
+		   return false;}
+		   }
+  </script>
+  <form name="myform"method="post" action="abc.jsp" onsubmit="return validation()">
+  name:<input type="text" name="name"><br>
+  pass:<input type="text" name="pass"><br>
+  <input type="submit" value="register">
+  </form>
+  
+ </body>
+</html>

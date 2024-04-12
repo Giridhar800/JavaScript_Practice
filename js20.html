@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Document</title>
+ </head>
+ <body>
+    <script>
+	function Employee(firstName,lastName)
+	{
+		this.firstName=firstName;
+		this.lastName=lastName;
+		}
+		Employee.prototype.fullName=function(){
+			return this.firstName+" "+this.lastName;
+			}
+	var emp1=new Employee("giri","dhar");
+	var emp2=new Employee("venkey", "yaday");
+	document.writeln(emp1.fullName()+"<br>");
+	document.writeln(emp2.fullName());
+	</script>
+  
+ </body>
+</html>

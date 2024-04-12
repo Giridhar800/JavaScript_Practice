@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+ <script>
+    var i;
+	var emp=new Array();
+	emp[0]="giri"
+	emp[1]="venkey";
+	emp[2]="Hari";
+
+	for (i=0;i<emp.length ;i++){
+		document.write(emp[i]+"<br>");
+         }
+</script>
+  
+ </body>
+</html>

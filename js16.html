@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+    <script>
+	function countpara(){
+		var total=document.getElementsByTagName("p");
+		alert("Total paragraphs are :" + total.length);
+		}
+	function counth1(){
+		var total=document.getElementsByTagName("h1");
+		alert("total length of h1 is:"+ total.length);
+		}
+
+	</script>
+	<p> This is giri creation </p>
+	<p> This is venkey creation</p>
+	<p> This is hari creation </p>
+	<p> This is giri creation </p>
+	<p> This is venkey creation</p>
+	<p> This is hari creation </p>
+	<h1> This is giri creation </h1>
+	<h1> This is venkey creation</h1>
+	<h1> This is hari creation </h1>
+	<h1> This is giri creation </h1>
+	<button onclick="countpara()"> paragraph count click here</button> 
+	<button onclick="counth1()"> h1 count</botton>
+  
+ </body>
+</html>
