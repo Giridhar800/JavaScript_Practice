@@ -10,7 +10,7 @@ Welcome to our JavaScript practice repository! Here, we improve our coding skill
 
 **How to Get Started:**
 1. Clone this repository
-   - git clone ''
+   - git clone 'https://github.com/Giridhar800/JavaScript_Practice.git'
 3. Choose an exercise
 4. Code and improve your skills!
 
